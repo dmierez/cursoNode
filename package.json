@@ -1,20 +1,22 @@
 {
-  "name": "cursonodeplatzi",
-  "version": "0.1.0",
-  "description": "Un chat con Node",
+  "name": "backendnode",
+  "version": "1.0.0",
+  "description": "Un chat como el de telegram pero mejor",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "chat",
-    "node"
+    "telegram",
+    "server"
   ],
-  "author": "Diego Mierez",
+  "author": "Carlos Hernandez",
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
-    "mongoose": "^5.9.11"
+    "mongoose": "^5.6.6",
+    "multer": "^1.4.2"
   }
 }

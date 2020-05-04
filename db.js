@@ -2,13 +2,12 @@ const db = require('mongoose');
 
 db.Promise = global.Promise;
 
-// 'mongodb+srv://diegoMierez:labrumier22@cursonode-i4ley.mongodb.net/test?retryWrites=true&w=majority',
- async function connect (url) {
+// 'mongodb://user:user1234@ds255107.mlab.com:55107/telegrom'
+async function connect(url) {
     await db.connect(url, {
         useNewUrlParser: true,
     });
-    
-    console.log('[db] conectada con éxito');
+    console.log('[db] Conectada con éxito');
 }
 
 module.exports = connect;
